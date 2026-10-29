@@ -10,6 +10,7 @@ Vào trang **[Releases](https://github.com/redsun-vn/bos-video-ai-release/releas
 
 | Phiên bản | Ngày | Tệp | Dung lượng |
 |---|---|---|---|
+| 0.1.1 | 29/10/2026 | `BOS-Video-AI-Setup-0.1.1.exe` | 381 MB |
 | 0.1.0 | 28/10/2026 | `BOS-Video-AI-Setup-0.1.0.exe` | 380 MB |
 
 Bộ cài đã có sẵn mọi thứ cần thiết. Bạn không phải cài thêm phần mềm nào khác.
@@ -48,10 +49,10 @@ Mỗi bản phát hành có kèm tệp `.sha256`. Để chắc tệp không bị
 Get-FileHash .\BOS-Video-AI-Setup-0.1.0.exe -Algorithm SHA256
 ```
 
-Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.0:
+Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.1:
 
 ```
-6ba765e2fe125b2e8796339e766d5ccacb27969e377af0f4a602193f57b3aec2
+7bb0e2ac4a60c08af0ffcd1fe837aaa7fcf467f9a8859726e8ba0f98c0c79c37
 ```
 
 ## Dữ liệu của bạn
@@ -66,9 +67,9 @@ Cập nhật hoặc gỡ ứng dụng **không** xoá các thư mục này.
 
 ## Cập nhật
 
-Từ bản sau 0.1.0, ứng dụng tự kiểm tra bản mới mỗi lần mở. Khi có bản mới, màn hình khởi động hiện **"Có bản x.y.z"** với hai nút **Cập nhật** và **Để sau**. Bản cập nhật được kiểm tra chữ ký số trước khi cài, và chỉ được tải từ trang phát hành này.
+Từ bản 0.1.1, ứng dụng tự kiểm tra bản mới mỗi lần mở. Khi có bản mới, màn hình khởi động hiện **"Có bản x.y.z"** với hai nút **Cập nhật** và **Để sau**. Bản cập nhật được kiểm tra chữ ký số trước khi cài, và chỉ được tải từ trang phát hành này.
 
-Người đang dùng bản **0.1.0** cần tải và cài bản kế tiếp bằng tay một lần (cài đè lên, dữ liệu được giữ nguyên).
+Người đang dùng bản **0.1.0** cần tải và cài bản 0.1.1 bằng tay một lần (cài đè lên, dữ liệu được giữ nguyên). Từ 0.1.1 trở đi, ứng dụng tự cập nhật.
 
 ## Gỡ cài đặt
 
