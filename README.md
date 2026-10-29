@@ -45,7 +45,7 @@ Trên một số máy Windows 11 mới cài, **Smart App Control** chặn hẳn 
 Mỗi bản phát hành có kèm tệp `.sha256`. Để chắc tệp không bị hỏng hay bị thay đổi, mở **PowerShell** trong thư mục chứa tệp và chạy:
 
 ```powershell
-Get-FileHash .\BOS-Video-AI-Setup-0.1.0.exe -Algorithm SHA256
+Get-FileHash .\BOS-Video-AI-Setup-0.1.2.exe -Algorithm SHA256
 ```
 
 Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.2:
@@ -58,7 +58,7 @@ Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.2:
 
 | Nội dung | Vị trí |
 |---|---|
-| Cài đặt, tài khoản, agent bạn đã sửa | `%APPDATA%\bos-video-ai` |
+| Cài đặt, tài khoản, agent bạn đã sửa, nhạc bạn tải lên | `%APPDATA%\bos-video-ai` |
 | Video đã tạo | `Tài liệu (Documents)\bos-video-ai\output` |
 | Nhật ký (gửi khi cần hỗ trợ) | `%LOCALAPPDATA%\bos-video-ai\logs` |
 
