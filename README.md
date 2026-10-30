@@ -10,6 +10,7 @@ Vào trang **[Releases](https://github.com/redsun-vn/bos-video-ai-release/releas
 
 | Phiên bản | Ngày | Tệp | Dung lượng |
 |---|---|---|---|
+| 0.1.5 | 31/10/2026 | `BOS-Video-AI-Setup-0.1.5.exe` | 391 MB |
 | 0.1.4 | 30/10/2026 | `BOS-Video-AI-Setup-0.1.4.exe` | 391 MB |
 | 0.1.3 | 30/10/2026 | `BOS-Video-AI-Setup-0.1.3.exe` | 391 MB |
 | 0.1.2 | 29/10/2026 | `BOS-Video-AI-Setup-0.1.2.exe` | 391 MB |
@@ -19,7 +20,9 @@ Bộ cài đã có sẵn mọi thứ cần thiết. Bạn không phải cài th�
 ## Máy cần có
 
 - Windows 10 hoặc Windows 11, bản 64-bit.
-- Khoảng 2 GB ổ đĩa trống, thêm chỗ cho video bạn tạo.
+- RAM từ 8 GB, CPU từ 4 luồng (Intel Core i3/i5 thế hệ 6 trở lên hoặc tương đương).
+- Ổ C còn trống từ 10 GB (app khoảng 2 GB, phần còn lại cho video bạn tạo); nên dùng ổ SSD.
+- Máy RAM 8 GB hoặc CPU 4 luồng: app tự dùng chế độ máy yếu (video 720p). Nên đóng bớt Chrome, Zalo khi đang tạo video để máy chạy mượt.
 - Mạng Internet khi dùng (đăng nhập, tạo kịch bản, hình ảnh, giọng đọc).
 - Tài khoản BOS để đăng nhập.
 - Không cần quyền quản trị (admin).
@@ -47,13 +50,13 @@ Trên một số máy Windows 11 mới cài, **Smart App Control** chặn hẳn 
 Mỗi bản phát hành có kèm tệp `.sha256`. Để chắc tệp không bị hỏng hay bị thay đổi, mở **PowerShell** trong thư mục chứa tệp và chạy:
 
 ```powershell
-Get-FileHash .\BOS-Video-AI-Setup-0.1.4.exe -Algorithm SHA256
+Get-FileHash .\BOS-Video-AI-Setup-0.1.5.exe -Algorithm SHA256
 ```
 
-Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.4:
+Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.5:
 
 ```
-c93f4030ae7f57a0443e8892679c6b55346f9a221728b8299afa32a47823a202
+0cd18f115b5800fc8a939d753e203d3dde9392233f23f8f4463fb4baf4664141
 ```
 
 ## Dữ liệu của bạn
