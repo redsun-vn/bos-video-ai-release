@@ -12,6 +12,7 @@ Vào trang **[Releases](https://github.com/redsun-vn/bos-video-ai-release/releas
 
 | Phiên bản | Ngày | Tệp | Dung lượng |
 |---|---|---|---|
+| 0.1.6 | 31/10/2026 | `BOS-Video-AI-Setup-0.1.6.exe` | 391 MB |
 | 0.1.5 | 31/10/2026 | `BOS-Video-AI-Setup-0.1.5.exe` | 391 MB |
 | 0.1.4 | 30/10/2026 | `BOS-Video-AI-Setup-0.1.4.exe` | 391 MB |
 | 0.1.3 | 30/10/2026 | `BOS-Video-AI-Setup-0.1.3.exe` | 391 MB |
@@ -52,13 +53,13 @@ Trên một số máy Windows 11 mới cài, **Smart App Control** chặn hẳn 
 Mỗi bản phát hành có kèm tệp `.sha256`. Để chắc tệp không bị hỏng hay bị thay đổi, mở **PowerShell** trong thư mục chứa tệp và chạy:
 
 ```powershell
-Get-FileHash .\BOS-Video-AI-Setup-0.1.5.exe -Algorithm SHA256
+Get-FileHash .\BOS-Video-AI-Setup-0.1.6.exe -Algorithm SHA256
 ```
 
-Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.5:
+Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 0.1.6:
 
 ```
-0cd18f115b5800fc8a939d753e203d3dde9392233f23f8f4463fb4baf4664141
+4ee3a2c3c97a1bd42a8ab34c769dde553858b4d74571c98d3f02ef5fdae72356
 ```
 
 ## Dữ liệu của bạn
@@ -86,6 +87,15 @@ Người đang dùng bản **0.1.0** cần tải và cài bản mới nhất b�
 - Trong ứng dụng, trang **Kiểm tra hệ thống** có nút **Sửa tự động** cho phần lớn lỗi thường gặp.
 - Ứng dụng báo "Bản cài bị hỏng": chạy lại bộ cài, dữ liệu vẫn được giữ.
 - Liên hệ hỗ trợ qua [bosvideo.net](https://bosvideo.net), gửi kèm ảnh chụp màn hình lỗi và thư mục nhật ký ở bảng trên.
+
+## Thông tin phiên bản cho trang web
+
+`download.json` ở thư mục gốc repo này luôn ghi phiên bản mới nhất: link tải, dung lượng, sha256 và cấu hình tối thiểu cho từng hệ điều hành.
+
+- Đọc từ trình duyệt: `https://raw.githubusercontent.com/redsun-vn/bos-video-ai-release/main/download.json`
+- Hoặc từ bản phát hành mới nhất: `https://github.com/redsun-vn/bos-video-ai-release/releases/latest/download/download.json`
+
+Nút tải dùng `platforms.windows.url`; số phiên bản dùng `latest_version`.
 
 ## Giấy phép và mã nguồn thành phần
 

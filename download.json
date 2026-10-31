@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "product": "BOS Video AI",
+  "website": "https://bosvideo.net",
+  "latest_version": "0.1.6",
+  "released_at": "2026-10-31T04:53:07+00:00",
+  "release_page": "https://github.com/redsun-vn/bos-video-ai-release/releases/tag/v0.1.6",
+  "platforms": {
+    "windows": {
+      "version": "0.1.6",
+      "arch": "x64",
+      "file_name": "BOS-Video-AI-Setup-0.1.6.exe",
+      "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.6/BOS-Video-AI-Setup-0.1.6.exe",
+      "size_bytes": 410368673,
+      "size_mb": 391,
+      "sha256": "4ee3a2c3c97a1bd42a8ab34c769dde553858b4d74571c98d3f02ef5fdae72356",
+      "requirements": {
+        "os": "Windows 10/11 64-bit",
+        "ram_gb": 8,
+        "cpu_threads": 4,
+        "free_disk_gb": 10,
+        "note_vi": "Nên dùng ổ SSD. Máy RAM 8 GB hoặc CPU 4 luồng tự dùng chế độ máy yếu (video 720p)."
+      }
+    }
+  }
+}
