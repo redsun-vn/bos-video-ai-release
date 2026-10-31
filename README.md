@@ -2,6 +2,8 @@
 
 Ứng dụng Windows giúp tạo video ngắn bằng AI: từ một ý tưởng, một đường link sản phẩm hoặc ảnh và clip của bạn, ứng dụng viết kịch bản, tạo hình ảnh hoặc clip chuyển động, đọc lời thoại tiếng Việt, ghép phụ đề và xuất ra video MP4 sẵn đăng lên TikTok, Reels, YouTube Shorts.
 
+Trang chủ và hỗ trợ: **[bosvideo.net](https://bosvideo.net)**.
+
 Repo này chỉ chứa **bộ cài** để tải về. Mã nguồn ứng dụng không nằm ở đây.
 
 ## Tải về
@@ -83,7 +85,7 @@ Người đang dùng bản **0.1.0** cần tải và cài bản mới nhất b�
 
 - Trong ứng dụng, trang **Kiểm tra hệ thống** có nút **Sửa tự động** cho phần lớn lỗi thường gặp.
 - Ứng dụng báo "Bản cài bị hỏng": chạy lại bộ cài, dữ liệu vẫn được giữ.
-- Khi liên hệ hỗ trợ, gửi kèm ảnh chụp màn hình lỗi và thư mục nhật ký ở bảng trên.
+- Liên hệ hỗ trợ qua [bosvideo.net](https://bosvideo.net), gửi kèm ảnh chụp màn hình lỗi và thư mục nhật ký ở bảng trên.
 
 ## Giấy phép và mã nguồn thành phần
 
