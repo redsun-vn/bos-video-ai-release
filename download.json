@@ -21,6 +21,44 @@
         "free_disk_gb": 10,
         "note_vi": "Nên dùng ổ SSD. Máy RAM 8 GB hoặc CPU 4 luồng tự dùng chế độ máy yếu (video 720p)."
       }
+    },
+    "macos": {
+      "arm64": {
+        "version": "0.1.8",
+        "arch": "arm64",
+        "file_name": "BOS-Video-AI-0.1.8-mac-arm64.dmg",
+        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.8/BOS-Video-AI-0.1.8-mac-arm64.dmg",
+        "size_bytes": 487969550,
+        "size_mb": 465,
+        "sha256": "89ee37e663f3c2d2caa788b2d9c1be49bdf1601dfdb94370b7c73d52539d5073",
+        "requirements": {
+          "os": "macOS 12 or later",
+          "ram_gb": 8,
+          "cpu_threads": 4,
+          "free_disk_gb": 10,
+          "chip": "Apple silicon (M1 or later)",
+          "label_vi": "Máy Mac M1/M2/M3/M4",
+          "note_vi": "Dành cho máy Mac chip Apple (M1 trở lên). Máy RAM 8 GB tự dùng chế độ máy yếu (video 720p)."
+        }
+      },
+      "x64": {
+        "version": "0.1.8",
+        "arch": "x64",
+        "file_name": "BOS-Video-AI-0.1.8-mac-x64.dmg",
+        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.8/BOS-Video-AI-0.1.8-mac-x64.dmg",
+        "size_bytes": 510896571,
+        "size_mb": 487,
+        "sha256": "1b65e8c92ccd49e33f3946c799d2462f018a33396897a86a2402421295cb8099",
+        "requirements": {
+          "os": "macOS 12 or later",
+          "ram_gb": 8,
+          "cpu_threads": 4,
+          "free_disk_gb": 10,
+          "chip": "Intel",
+          "label_vi": "Máy Mac Intel",
+          "note_vi": "Dành cho máy Mac chip Intel. Máy Mac chip Apple (M1 trở lên) nên tải bản M1/M2/M3/M4. Máy RAM 8 GB hoặc CPU 4 luồng tự dùng chế độ máy yếu (video 720p)."
+        }
+      }
     }
   }
 }
