@@ -100,6 +100,10 @@ Người đang dùng bản **0.1.0** cần tải và cài bản mới nhất b�
 
 Nút tải dùng `platforms.windows.url`; số phiên bản dùng `latest_version`.
 
+## Bộ nhận diện thương hiệu
+
+Logo, icon, wordmark, bảng màu, font và quy tắc dùng của BOS Video AI nằm trong thư mục [`brand/`](brand/) (hướng dẫn: [brand/README.md](brand/README.md)). Dùng đúng các file gốc ở đó khi làm trang web, bài đăng, slide hay tài liệu.
+
 ## Giấy phép và mã nguồn thành phần
 
 BOS Video AI phát triển dựa trên dự án mã nguồn mở [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) và đi kèm một số phần mềm bên thứ ba. Danh sách đầy đủ và toàn văn giấy phép nằm trong thư mục `licenses` của bản cài, và trong mục **Hỏi đáp & Giới thiệu** của ứng dụng.

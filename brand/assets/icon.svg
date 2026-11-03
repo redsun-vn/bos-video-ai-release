@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- BOS Video AI app icon (master for 40 px and up), "Agent Loop": AI agents hand the work around a
+       loop (plan, make, check) and a video comes out in the middle. Two white arcs and the gold arc
+       each end in an agent node; the navy ring keeps a node apart from the arc behind it. -->
+  <rect width="256" height="256" rx="58" fill="#003049"/>
+  <path d="M148.71 50.73 A80 80 0 0 1 205.27 148.71" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="205.27" cy="148.71" r="16" fill="#FFFFFF" stroke="#003049" stroke-width="9"/>
+  <path d="M184.57 184.57 A80 80 0 0 1 71.43 184.57" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="71.43" cy="184.57" r="16" fill="#FFFFFF" stroke="#003049" stroke-width="9"/>
+  <path d="M50.73 148.71 A80 80 0 0 1 107.29 50.73" fill="none" stroke="#EDAD32" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="107.29" cy="50.73" r="16" fill="#EDAD32" stroke="#003049" stroke-width="9"/>
+  <path d="M113 100 L155 128 L113 156 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="round"/>
+</svg>

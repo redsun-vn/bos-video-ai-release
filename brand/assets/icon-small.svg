@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- BOS Video AI app icon, small master on a 32 grid for 16-32 px: same loop, thicker arcs -->
+  <rect width="32" height="32" rx="7" fill="#003049"/>
+  <path d="M19.10 5.86 A10.6 10.6 0 0 1 26.33 18.38" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="26.33" cy="18.38" r="2.4" fill="#FFFFFF" stroke="#003049" stroke-width="1.2"/>
+  <path d="M23.23 23.75 A10.6 10.6 0 0 1 8.77 23.75" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="8.77" cy="23.75" r="2.4" fill="#FFFFFF" stroke="#003049" stroke-width="1.2"/>
+  <path d="M5.67 18.38 A10.6 10.6 0 0 1 12.90 5.86" fill="none" stroke="#EDAD32" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="12.90" cy="5.86" r="2.4" fill="#EDAD32" stroke="#003049" stroke-width="1.2"/>
+  <path d="M14.2 12.4 L19.799999999999997 16 L14.2 19.6 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2.2" stroke-linejoin="round"/>
+</svg>

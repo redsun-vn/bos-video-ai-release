@@ -1,0 +1,21 @@
+<!doctype html>
+<!-- BOS Video AI horizontal lockup master: icon + stacked wordmark (both outlined SVG, no font needed).
+     Suggested home: resources/bos/wordmark.html next to icon.svg and wordmark.svg; render the .lockup
+     element at device_scale_factor=2 with a transparent background to get resources/bos/wordmark.png. -->
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<style>
+html, body { margin: 0; background: transparent; }
+/* icon and wordmark share one height; gap = 0.2 x height */
+.lockup { display: inline-flex; align-items: center; gap: 28px; padding: 4px; }
+.lockup img { display: block; height: 140px; }
+</style>
+</head>
+<body>
+<div class="lockup">
+  <img src="icon.svg" alt="">
+  <img src="wordmark.svg" alt="BOS Video AI">
+</div>
+</body>
+</html>
