@@ -24,13 +24,13 @@
     },
     "macos": {
       "arm64": {
-        "version": "0.1.8",
+        "version": "0.1.9",
         "arch": "arm64",
-        "file_name": "BOS-Video-AI-0.1.8-mac-arm64.dmg",
-        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.8/BOS-Video-AI-0.1.8-mac-arm64.dmg",
-        "size_bytes": 487969550,
+        "file_name": "BOS-Video-AI-0.1.9-mac-arm64.dmg",
+        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.9/BOS-Video-AI-0.1.9-mac-arm64.dmg",
+        "size_bytes": 487885514,
         "size_mb": 465,
-        "sha256": "89ee37e663f3c2d2caa788b2d9c1be49bdf1601dfdb94370b7c73d52539d5073",
+        "sha256": "a3124968a156fcdb36c5405bd31db06f32839bf5605e4efa68609fc2f2702391",
         "requirements": {
           "os": "macOS 12 or later",
           "ram_gb": 8,
@@ -42,13 +42,13 @@
         }
       },
       "x64": {
-        "version": "0.1.8",
+        "version": "0.1.9",
         "arch": "x64",
-        "file_name": "BOS-Video-AI-0.1.8-mac-x64.dmg",
-        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.8/BOS-Video-AI-0.1.8-mac-x64.dmg",
-        "size_bytes": 510896571,
-        "size_mb": 487,
-        "sha256": "1b65e8c92ccd49e33f3946c799d2462f018a33396897a86a2402421295cb8099",
+        "file_name": "BOS-Video-AI-0.1.9-mac-x64.dmg",
+        "url": "https://github.com/redsun-vn/bos-video-ai-release/releases/download/v0.1.9/BOS-Video-AI-0.1.9-mac-x64.dmg",
+        "size_bytes": 527342096,
+        "size_mb": 503,
+        "sha256": "1bb85ce74a385da67c7484360e6b7bd4b011faa50a232c98a1139fbb75ad51b3",
         "requirements": {
           "os": "macOS 12 or later",
           "ram_gb": 8,
