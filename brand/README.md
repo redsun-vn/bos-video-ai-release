@@ -61,6 +61,38 @@ Bảng màu kế thừa thương hiệu mẹ BOS (web-bo-shop), **không đổi*
 
 Tỉ lệ gợi ý trên một màn hình: navy và trung tính chiếm khoảng 80%, vàng khoảng 15%, đỏ dưới 5% (chỉ những chỗ cần nổi bật nhất). Không đặt đỏ cạnh vàng ở diện tích lớn.
 
+### Màu giao diện app (Boutique Hotel, từ bản 0.1.9)
+
+Giao diện app dùng một bảng màu riêng, trầm và sang hơn, dựng trên bảng thương hiệu ở trên. Logo, icon và motif Agent Loop vẫn dùng đúng màu thương hiệu; bảng dưới đây chỉ dành cho màn hình app (nền, chữ, nút, trạng thái).
+
+| Vai trò | Mã | Dùng cho |
+|---|---|---|
+| Navy khách sạn | `#0A1E2E` | Thanh menu bên trái, tiêu đề, chữ trên nút vàng |
+| Navy nhạt | `#17344B` | Hover và đường kẻ trên nền navy |
+| Vàng đồng | `#CBA135` | Nút chính hằng ngày, mục đang chọn, tiến độ, điểm nhấn trên navy |
+| Vàng đồng hover | `#B98F27` | Nút chính khi rê chuột |
+| Vàng chữ | `#7A5A12` | Nhãn nhỏ và chữ vàng trên nền sáng (tương phản ≥ 4,5:1) |
+| Đỏ BOS | `#BA0000` | Chỉ nút tạo video / tốn credit và viền nút xoá |
+| Kem | `#F6F1E4` | Nền app, tiêu đề trên nền navy |
+| Trắng | `#FFFFFF` | Thẻ, ô nhập |
+| Kem đậm | `#F1ECE0` | Nền phụ (khung xem trước, vùng phụ) |
+| Chữ nội dung | `#22303D` | Đoạn văn |
+| Chữ phụ | `#5F6977` | Mô tả, chú thích |
+| Chữ menu | `#B4BEC8` | Chữ thường trên thanh menu navy |
+| Đường kẻ | `rgba(10,30,46,0.12)` | Viền thẻ, gạch chân ô nhập |
+| Xanh "xong" | `#2F7D5F` | Chấm trạng thái thành công |
+| Vàng cảnh báo | `#9A6A0C` | Chấm và nền cảnh báo |
+| Đỏ lỗi | `#B3261E` | Chấm và viền lỗi |
+| Xám chờ | `#8A929C` | Đang chờ / chưa rõ |
+
+Quy tắc của giao diện app:
+
+- Góc bo 2px, ô nhập dạng gạch chân, nhãn nhỏ viết hoa giãn chữ.
+- Vàng đồng là nút chính thường ngày (chữ navy). Đỏ chỉ dành cho hành động tạo video hoặc tốn credit, và viền của nút xoá. Mỗi màn hình có tối đa một nút đỏ.
+- Tiêu đề màn hình dùng Plus Jakarta Sans độ đậm 500 (nhẹ hơn tiêu đề landing), nội dung dùng Be Vietnam Pro.
+- Ít chữ: mỗi màn hình một câu dẫn ngắn, giữ thông điệp bosvideo.net ("Nói ý tưởng. Bấm. Có video.").
+- Ảnh trên thẻ chung (không thuộc một ngành) dùng biểu tượng trung tính, không dùng ảnh riêng của một ngành.
+
 ## 4. Chữ
 
 ![So sánh font với tiếng Việt; phương án B là phương án đã chọn](assets/font-pairing-preview.png)
