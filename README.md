@@ -12,6 +12,7 @@ Vào trang **[Releases](https://github.com/redsun-vn/bos-video-ai-release/releas
 
 | Phiên bản | Ngày | Tệp | Dung lượng |
 |---|---|---|---|
+| 1.0.3 | 11/11/2026 | `BOS-Video-AI-Setup-1.0.3.exe` | 395 MB |
 | 1.0.2 | 10/11/2026 | `BOS-Video-AI-Setup-1.0.2.exe` | 395 MB |
 | 1.0.1 | 10/11/2026 | `BOS-Video-AI-Setup-1.0.1.exe` | 395 MB |
 | 1.0.0 | 10/11/2026 | `BOS-Video-AI-Setup-1.0.0.exe` | 395 MB |
@@ -59,13 +60,13 @@ Trên một số máy Windows 11 mới cài, **Smart App Control** chặn hẳn 
 Mỗi bản phát hành có kèm tệp `.sha256`. Để chắc tệp không bị hỏng hay bị thay đổi, mở **PowerShell** trong thư mục chứa tệp và chạy:
 
 ```powershell
-Get-FileHash .\BOS-Video-AI-Setup-1.0.2.exe -Algorithm SHA256
+Get-FileHash .\BOS-Video-AI-Setup-1.0.3.exe -Algorithm SHA256
 ```
 
-Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 1.0.2:
+Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 1.0.3:
 
 ```
-4a618ee0d09782da90fe7e68a207f148e39a1cd0a9bc59da0f2524b8eaf15125
+b47933fd08feeda4d1fed4ba18564eff4930b214a90e1788c2e1101d0a3a9dff
 ```
 
 ## Dữ liệu của bạn
