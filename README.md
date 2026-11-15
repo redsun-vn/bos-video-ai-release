@@ -68,7 +68,7 @@ Get-FileHash .\BOS-Video-AI-Setup-1.2.0.exe -Algorithm SHA256
 Kết quả phải giống chuỗi trong tệp `.sha256`. Với bản 1.2.0:
 
 ```
-116753dc2cb5dca04314543a3de78873c094f3552b2fb7ffe88c5c70b9a8ad4c
+5298a2f45570a8f279467013c4ec3a332f5218a452fb9b733e337433c5dcf5e4
 ```
 
 ## Dữ liệu của bạn
